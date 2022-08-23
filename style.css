@@ -1,0 +1,99 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline:0;
+    
+}
+body{
+    top: 100px;
+    background: rgb(166, 245, 184);
+}
+.container{
+
+    margin: 50px;
+    border-radius: 100px;
+    height: 90vh;
+	width: 90vw;
+	text-align:center;
+	color:#333;
+	background: rgb(225, 74, 225);
+
+}
+.love{
+    padding-bottom: 50px;
+}
+.love,.yes,.no{padding-top: 10%;
+		
+		}
+#queen{
+    font-size: 25;
+    font-family: Geneva;
+    text-align: top;
+    color: rgb(0, 251, 255);
+}
+.love span{color:rgb(17, 255, 0);}
+h2{font-size: 72px;margin-bottom: 20px;}
+a{font-size: 24px;text-decoration: none;padding: 5px 10px;
+	margin-top: 20px;border:3px solid #ddd; border-radius: 10px;}
+#no{color:red; background: #eee;margin-right: 50px;}
+#yes{color:green;background: #eee;}
+
+
+.no{
+   padding-top: 20px;
+}
+.yes{
+    padding-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(76, 237, 255)
+
+}
+.yes img{
+	height: 25px;
+	width: 30px;
+	animation: image 2s linear infinite;
+}
+@keyframes image{
+	0%{transform: scale(.5);}
+	50%{transform: scale(1.5);}
+	100%{transform: scale(.5);}
+}
+button{
+    font-size: 100px;
+    padding-right: 100px;
+    position: absolute;
+    background-color: rgb(225, 74, 225);
+    border: none;
+    top: 50%;
+    left:45%;
+    color: rgb(76, 237, 255);
+    bottom: 50%;
+    right: 20%;
+    cursor: pointer;
+    height: 129px;
+    width: 100px;
+}
+
+.hear   {
+    font-size: 30px;
+    padding-right: 100px;
+    position: absolute;
+    background-color: rgb(225, 74, 225);
+    border: none;
+    top: 80%;
+    left:25%;
+    color: rgb(255, 255, 255);
+} 
+.heart{
+    position: fixed;
+    top: -1vh;
+    font-size: 20px;
+    animation:hearttrain 2s linear forwards;
+    transition: transform 3s; 
+    
+}
+@keyframes hearttrain{
+    to{
+        transform : translateY(105vh);
+    }
+}
